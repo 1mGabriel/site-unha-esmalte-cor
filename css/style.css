@@ -33,10 +33,7 @@ body{
     font-weight: bold;
     transition: .4s;
 }
-.nav-container h1:hover{
-    font-size: 65px;
-    color: #7a2e49;
-}
+
 .nav-container p{
     color: #95596e; ;
     font-size: 25px;
@@ -537,6 +534,7 @@ footer{
     .nav-container h1{
         font-size: 40px;
     }
+    
     .banner-container{
         height: 10rem;
         padding-bottom: 0;
