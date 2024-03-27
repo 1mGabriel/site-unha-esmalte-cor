@@ -654,4 +654,12 @@ footer{
     .pemao{
         display: none;
     }
+    .h1-nail{
+        width: 300px;
+    }
+    .destaque-container h1{
+        font-size: 40px;
+
+    }
 }
+
