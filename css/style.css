@@ -512,15 +512,18 @@ footer{
 }
 /* mediaQUERY */
 
-@media(max-width: 450px){
+@media(max-width: 425px){
     .menu-buttons{
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 1rem;
     }
+    html{
+        width: 425px;
+    }
     .nav-container{
-        width: 450px;
+        width: 425px;
     }
     .nav-container p{
         display: none;
