@@ -631,6 +631,7 @@ footer{
         
     }
     .about-description p{
+        width: 400px;
         padding-top: 2rem;
         font-size: 30px;
     }
@@ -643,8 +644,10 @@ footer{
 
     }
     .galery{
+        margin-left: 0;
         display: flex;
         flex-direction: row;
+        justify-content: center;
 
     }
     .galery-img img{
@@ -660,6 +663,14 @@ footer{
     .destaque-container h1{
         font-size: 40px;
 
+    }
+    .esmalte-picker ul{
+        margin-bottom: 0;
+        padding-left: 0;
+        height: 80px;
+    }
+    .esmalte-picker li{
+       margin:  2px;
     }
 }
 
