@@ -593,7 +593,10 @@ footer{
         font-size: 40px;
         margin: 0 5px;
     }
+    .price-container{
+        padding-bottom: 2rem;
 
+    }
     .prices-container{
         
         display: flex;
@@ -607,7 +610,7 @@ footer{
         height: 200px;
         border-radius: 10px;
         border-top: none;
-
+        
     }
     .about-container{
         
@@ -626,12 +629,15 @@ footer{
     }
     .about-description p{
         width: 400px;
-        padding-top: 2rem;
+        
         font-size: 30px;
     }
     .about-content{
+        margin-bottom: 2rem;
+        padding-bottom: 2rem;
         width: 100%;
-        height: 375px;
+        height: 400px;
+        
     }
     .about-container img{
         height: 250px;
@@ -665,6 +671,13 @@ footer{
     }
     .esmalte-picker li{
        margin:  2px;
+    }
+    .esmalte-container{
+        padding-bottom: 2.5rem;
+    }
+    .contact-container{
+        padding-top: 2rem;
+        padding-bottom: 4.5rem;
     }
 }
 
