@@ -627,7 +627,7 @@ footer{
     .about-description{
         border-top: 1px solid #fff;
         margin: 0;
-        width: 380px;
+        width: 100%;
         text-align: center;
         
     }
@@ -639,7 +639,8 @@ footer{
     .about-content{
         margin-bottom: 2rem;
         padding-bottom: 2rem;
-        width: 100%;
+        width: 425px;
+        padding: 0;
         height: 400px;
         
     }
@@ -756,9 +757,7 @@ footer{
     .about-container{
         justify-content: space-around;
     }
-    .about-content{
-        width: 500px;
-    }
+
     .galery img{
         width: 300px;
     }
