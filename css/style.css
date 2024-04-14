@@ -512,6 +512,10 @@ footer{
 }
 /* mediaQUERY */
 
+
+
+
+
 @media(max-width: 425px){
     .menu-buttons{
         display: flex;
@@ -648,6 +652,7 @@ footer{
         display: flex;
         flex-direction: row;
         justify-content: center;
+        padding-bottom: 2rem;
 
     }
     .galery-img img{
@@ -676,8 +681,96 @@ footer{
         padding-bottom: 2.5rem;
     }
     .contact-container{
-        padding-top: 2rem;
+        padding-top: 5rem;
         padding-bottom: 4.5rem;
+    }
+}
+
+@media(max-width: 768px){
+    .destaque-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .colors{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+    }
+    .prices-container{
+        gap: 1rem;
+    }
+    .galery{
+        margin: 0 3rem 0 4rem;
+        width: 100%;
+    }
+}
+@media(max-width: 1024px){
+    .destaque-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .colors{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        height: 100px;
+    }
+    .galery img{
+        width: 400px;
+}
+    .galery{
+        margin-left: 6.5rem;
+    }
+
+
+}
+@media(max-width: 1440px){
+    .contact-container{
+        padding-bottom: 5rem;
+        display: flex;
+        justify-content:end;
+        align-items: center;
+    }
+    .galery{
+        margin-left: 4rem;
+    }
+    .destaque-container{
+        padding-left: 2rem;
+      
+    }
+}
+@media(max-width: 2560px){
+    .banner-container{
+        padding-top: 2rem;
+    }
+    .destaque-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-container{
+        justify-content: space-around;
+    }
+    .about-content{
+        width: 500px;
+    }
+    .galery img{
+        width: 300px;
+    }
+    .galery{
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact-container{
+        padding-top: 10rem;
+        padding-bottom: 10rem;
     }
 }
 
